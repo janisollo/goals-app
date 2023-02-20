@@ -16,14 +16,14 @@ const setGoal = (req, res) => {
 };
 
 // @desc    Update Goal
-// @route   PUT /api/goals
+// @route   PUT /api/goals/:id
 // @access  Private
 
 const putGoals = (req, res) => {
   res.json({ message: `Update goal ${req.params.id}` });
 };
 // // @desc    Delete Goal
-// // @route   DELETE /api/goals
+// // @route   DELETE /api/goals/:id
 // // @access  Private
 
 const deleteGoals = (req, res) => {
